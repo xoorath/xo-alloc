@@ -1,4 +1,6 @@
-# xo-alloc 0.2
+# xo-alloc
+_version 0.2, May 2017_
+
 A public domain single header file module for allocating memory in a block. C++11 or newer required.
 
 # Example: Create a block allocator
@@ -17,15 +19,15 @@ MyAlloc.Delete(banana);
 ```
 
 # Todo 1.0:
-- ~Create a consistent "xo-lib" look and feel~ added in 0.2
+- ~Create a consistent "xo-lib" look and feel~ (added in 0.2)
 - realloc, calloc, array new, array delete.
 - unit tests.
 - decide how visualization might be implemented, and do that.
 - do cleanup on casts, and use of char*
 
 # Versions:
-### 0.2 (2017-05-16) adding demo.cpp, public malloc/free, xo styling
-### 0.1 (2017-05-15) initial commit
+- *v0.2* (2017-05-16) adding demo.cpp, public malloc/free, xo styling
+- *v0.1* (2017-05-15) initial commit
 
 # Street Cred
 Inspired by [Sean Barrett's stb](https://github.com/nothings).
@@ -35,6 +37,7 @@ This software is available under 2 licenses - choose whichever you prefer
 
 ### MIT Licence
 > Copyright (c) 2017 Jared Thomson
+>
 > Permission is hereby granted, free of charge, to any person obtaining 
 > a copy of this software and associated documentation files (the 
 > "Software"), to deal in the Software without restriction, including 
