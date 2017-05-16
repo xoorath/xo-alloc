@@ -18,7 +18,7 @@
 //    license: you are granted a perpetual, irrevocable license to copy, modify,
 //    publish, and distribute this file as you see fit.
 //
-// USAGE:
+//  USAGE:
 //    // Create an allocator of 1024 bytes.
 //    BlockAllocator<1024> MyAlloc;
 //
@@ -31,7 +31,7 @@
 //    MyAlloc.Delete(apple);
 //    MyAlloc.Delete(banana);
 //
-// IMPLEMENTATION NOTES:
+//  IMPLEMENTATION NOTES:
 //
 //    There's a buffer of memory specified as a template parameter. The buffer starts off
 //    as a single large chunk marked as "free". When New is called, we start at the first
